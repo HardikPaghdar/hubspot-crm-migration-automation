@@ -20,14 +20,16 @@ def normalize_email(value: Any) -> str:
 
 
 def normalize_phone(value: Any) -> str:
+    """Keep a leading plus and digits; formatting only, not country validation."""
     raw = _text(value)
     if not raw:
         return ""
-    digits = re.sub(r"\\D", "", raw)
+    digits = re.sub(r"\D", "", raw)
     return f"+{digits}" if raw.startswith("+") and digits else digits
 
 
 def normalize_contact(row: dict[str, Any]) -> dict[str, str]:
+    """Map common source CRM headers to HubSpot-style contact property names."""
     normalized = {str(k).strip().lower(): _text(v) for k, v in row.items()}
     aliases = {
         "first name": "firstname", "first_name": "firstname", "firstname": "firstname",
@@ -48,10 +50,11 @@ def normalize_contact(row: dict[str, Any]) -> dict[str, str]:
 
 
 def validate_contact(row: dict[str, str]) -> list[str]:
+    """Return validation issue codes for the supported contact workflow."""
     errors: list[str] = []
     email = row.get("email", "")
     if not email:
         errors.append("missing_email")
-    elif not re.fullmatch(r"[^\\s@]+@[^\\s@]+\\.[^\\s@]+", email):
+    elif not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", email):
         errors.append("invalid_email")
     return errors
