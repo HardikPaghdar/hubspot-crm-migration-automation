@@ -11,8 +11,6 @@ These are illustrative SVG previews using synthetic data, not screenshots from a
 ### Migration workbench
 <img src="https://raw.githubusercontent.com/HardikPaghdar/hubspot-crm-migration-automation/main/docs/screenshots/overview.svg" alt="Migration workbench preview" width="100%">
 
-### Data quality review
-<img src="https://raw.githubusercontent.com/HardikPaghdar/hubspot-crm-migration-automation/main/docs/screenshots/data-quality.svg" alt="Data quality review preview" width="100%">
 
 ### Workflow
 <img src="https://raw.githubusercontent.com/HardikPaghdar/hubspot-crm-migration-automation/main/docs/screenshots/workflow.svg" alt="CRM workflow preview" width="100%">
