@@ -9,13 +9,13 @@ A Python reference implementation for CSV-based CRM contact cleanup, validation,
 These are illustrative SVG previews using synthetic data, not screenshots from a connected HubSpot portal.
 
 ### Migration workbench
-![Migration workbench](docs/screenshots/overview.svg)
+<img src="https://raw.githubusercontent.com/HardikPaghdar/hubspot-crm-migration-automation/main/docs/screenshots/overview.svg" alt="Migration workbench preview" width="100%">
 
 ### Data quality review
-![Data quality](docs/screenshots/data-quality.svg)
+<img src="https://raw.githubusercontent.com/HardikPaghdar/hubspot-crm-migration-automation/main/docs/screenshots/data-quality.svg" alt="Data quality review preview" width="100%">
 
 ### Workflow
-![Workflow](docs/screenshots/workflow.svg)
+<img src="https://raw.githubusercontent.com/HardikPaghdar/hubspot-crm-migration-automation/main/docs/screenshots/workflow.svg" alt="CRM workflow preview" width="100%">
 
 ## Features
 
