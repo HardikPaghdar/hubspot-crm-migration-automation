@@ -1,0 +1,10 @@
+{
+  "email": "email",
+  "firstname": "firstname",
+  "lastname": "lastname",
+  "company": "company",
+  "phone": "phone",
+  "website": "website",
+  "jobtitle": "jobtitle",
+  "lifecyclestage": "lifecyclestage"
+}
