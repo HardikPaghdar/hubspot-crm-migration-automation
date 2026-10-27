@@ -95,7 +95,7 @@ python -m compileall -q src app.py
 
 Before production use, add remote duplicate checks and idempotency, update/upsert semantics, companies/deals/notes/activities and associations, persistent checkpoints, per-record outcomes, bounded retry/backoff, custom-property validation, sandbox integration tests, reconciliation and rollback procedures, and agreed data privacy/retention controls.
 
-See [architecture](docs/architecture.md) and [migration runbook](docs/migration-runbook.md).
+See [architecture](docs/architecture.md), [field mapping](docs/field-mapping.md), [workflow designs](docs/workflows.md), and the [migration runbook](docs/migration-runbook.md).
 
 ## License
 
