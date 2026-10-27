@@ -1,0 +1,7 @@
+First Name,Last Name,Email Address,Company Name,Phone Number,Job Title
+Ava,Patel, AVA.PATEL@example.com ,Northstar Labs,+1 (415) 555-0134,Operations Manager
+Noah,Reed,noah.reed@example.com,Harbor Systems,415.555.0192,Sales Director
+Mia,Chen,mia.chen@example.com,Juniper Works,+44 20 7946 0958,Founder
+Ava,Patel,ava.patel@example.com,Northstar Labs,+1 415 555 0134,Operations Manager
+Invalid,Record,not-an-email,Sample Company,555-0100,Analyst
+Missing,Email,,Example Ltd,,Coordinator
